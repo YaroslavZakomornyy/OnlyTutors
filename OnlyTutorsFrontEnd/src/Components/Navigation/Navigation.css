@@ -1,0 +1,53 @@
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00b8ff;
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.nav h1, .nav a {
+  letter-spacing: 0.03em;
+  margin: 0px;
+  font-size: 5vh;
+  text-decoration: none!important;
+  color: white;
+  -webkit-text-stroke: 1.1px black;
+}
+
+.nav h1:visited, h1:link {
+  color: black;
+  text-decoration: none!important;
+}
+
+.nav-item a {
+  font-size: 4vh;
+  margin-left: 0.7vw;
+  margin-right: -0.3vw;
+  font-weight: bold;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  width: 33vw;
+}
+
+.nav-item:first-child {
+  display: flex;
+  justify-content: start;
+  width: 33vw;
+}
+
+.nav-item img {
+  margin-bottom: 1vh;
+  margin-right: 3.5vw;
+  height: 12vh;
+}

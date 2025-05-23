@@ -1,0 +1,99 @@
+.columns {
+  display: flex;
+  padding: 10vh;
+  justify-content: center;
+  height: 80vh;
+  /* background-image: url('../files/back3.png');  */
+  background-size: 800px;
+}
+
+.row1 {
+  width:19.9vw;
+  margin-right: 2vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.row2 {
+  width:29.9vw;
+  margin-right: 2vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.row1, .row2 .item {
+  margin-top: 3vh;
+  align-items: center;
+}
+
+.row1, .row2 .item h2{
+  display: flex;
+  text-align: center;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 40vh;
+}
+
+.profile-image img {
+  width: 19.9vw;
+  /* border-radius: 50%; */
+  border: black 1px solid;
+}
+
+.profile-description{
+  width: 29.9vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-description button {
+  height: 5vh;
+}
+
+.profile-contact {
+  margin-top: 2.5vh;
+  width: 19.9vw;
+}
+
+.profile-contact h2 {
+  font-size: 16px;
+}
+
+.profile-experience {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5vh;
+  width: 29.9vw;
+}
+
+.profile-name {
+  margin-top: 2.5vh;
+  width: 19.9vw;
+}
+
+.profile_skills button {
+  margin-right: 5vw;
+}
+
+.profile-skills { 
+  margin-top: 2.5vh;
+  width: 29.9vw;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.smaller h2{
+  font-size: 1em;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  margin-left: 2vw;
+}

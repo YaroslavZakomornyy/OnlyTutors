@@ -1,0 +1,43 @@
+.body {
+/* background-image: url('../files/back3.png'); */
+background-size: 800px;
+}
+
+.logomain {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 8vh;
+}
+
+.nav h1 {
+    letter-spacing: 0.03em;
+    margin-top: 1px;
+    font-size: 5vh;
+}
+
+.content {
+    padding: 6vh;
+}
+
+.tutors {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: repeat(2, 57vh);
+    gap: 1.5vw;
+    margin-top: 2.5vh;
+    grid-auto-rows: 57vh;
+}
+
+.item {
+    background-color: #43caff9c;
+    border: rgb(59, 59, 59) 1px solid;
+    box-shadow: 7px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.new-project {
+    position: fixed;
+    bottom: 0.3vh;
+    right: 0.5vw;
+}

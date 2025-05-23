@@ -1,0 +1,119 @@
+.SearchBar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 4.5vh;
+    text-align: center;
+}
+
+
+.SearchBar input {
+    width: 52vw;
+    padding: 0.5vw;
+    margin-right: 0.7vw;
+    font-size: 1.75vh;
+    transition: ease-out 0.2s;
+}
+
+.SearchBar input:hover {
+    transition: 0.11s;
+    width: 53.5vw;
+}
+
+
+.SearchBar input:focus {
+    transition: 0.2s;
+    width: 56vw;
+}
+  
+.SearchButton {
+    border-radius: 2px;
+    cursor: pointer;
+    width: 5vw;
+    height: 4.5vh;
+    text-align: center;
+    border: black solid 1px;
+    font-weight: 600;
+    font-size: 1.75vh;
+    box-shadow: inset 0 0 0 0 #c8d0ec;
+    -webkit-transition: ease-out 0.6s;
+    -moz-transition: ease-out 0.6s;
+    transition: ease-out 0.6s;
+}
+
+.SearchButton:hover {
+    color: white;
+    transition: 0.6s;
+    box-shadow: inset 0 0 0 50px #93b3eb;
+}
+
+.switch-label-text {
+    margin-top: 0.1vh;
+    margin-right: 1.5vw;
+    margin-left: 0.2vw;
+    font-size: 2.5vh;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    top: 0.25vh;
+    width: 3vw;
+    height: 3.7vh;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 2.8vh;
+    width: 2.8vh;
+    left: 0.2vw;
+    bottom: 0.5vh;
+    background-color: white;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(1.3vw);
+    -ms-transform: translateX(1.3vw);
+    transform: translateX(1.3vw);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 2.8vw;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }

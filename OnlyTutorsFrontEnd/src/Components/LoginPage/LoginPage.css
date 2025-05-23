@@ -1,0 +1,44 @@
+.logo-image img {
+    width: 100%;
+    /* border: black 1px solid; */
+}
+
+.logo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 15vw;
+}
+
+.login {
+    margin-top: 2.5vh;
+    width: 25vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.username .login {
+    justify-content: space-evenly;
+}
+
+.login input {
+    height: 70%;
+    padding: 1vh;
+}
+
+.username input {
+    margin-left: 3vw;
+}
+
+.login button {
+    margin-top: 1.3vh;
+    width: 20vw;
+    font-size: large;
+}
+
+.sign {
+    margin-top: 0.2vh;
+}

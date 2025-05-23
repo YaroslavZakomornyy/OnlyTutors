@@ -1,0 +1,130 @@
+.EditProfileWindow {
+    display: none;
+    z-index: 2;
+    width: 25vw;
+    height: 60vh;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border: black 3px solid;
+    border-radius: 3px;
+}
+
+.new-button {
+    border-radius: 2px;
+    cursor: pointer;
+    width: 10vw;
+    height: 5.25vh;
+    font-weight: 700;
+    font-size: 1.87vh;
+    text-align: center;
+    border: black solid 1px;
+    transition: ease-out 0.2s;
+    box-shadow: inset 0 0 0 0 #c8d0ed;
+    -webkit-transition: ease-out 0.6s;
+    -moz-transition: ease-out 0.6s;
+    transition: ease-out 0.6s;
+}
+
+
+.new-button:hover {
+    color: white;
+    transition: 0.6s;
+    box-shadow: inset 0 0 0 50px #93b3eb;
+}
+
+
+.window-header h2 {
+    font-size: 2.5vh;
+    margin-top: 1.5vh;
+    margin-bottom: 0.8vh;
+    text-align: center;
+}
+
+.EditProfileWindow label{
+    font-size: 1.8vh;
+}
+
+.EditProfileWindow textarea{
+    margin-bottom: 1vh;
+    width: 23vw;
+    font-size: 1.7vh;
+    text-align: center;
+    color: black;
+    border-radius: 3px;
+    resize:none;
+}
+
+.experience-textarea, .bio-textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.short {
+    display: flex;
+    justify-content:space-between;
+    margin-left: 1vw;
+    margin-right: 0.9vw;
+
+}
+
+.short textarea, .short input {
+    margin-bottom: 1vh;
+    width: 15vw;
+    text-align: center;
+    color: black;
+    border-radius: 3px;
+    resize:none;
+}
+
+.short input {
+    margin-right: 10%;
+    width: 10vw;
+}
+
+.select-container {
+    width: 23.3vw;
+    margin: auto;
+    margin-bottom: 1vh;
+}
+
+
+.EditProfileWindow .submit-button-container {
+    margin-top: 0vh;
+    position: absolute;
+    left: 5.2vw;
+    bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit-button {
+    border-radius: 2px;
+    cursor: pointer;
+    width: 15vw;
+    height: 5.25vh;
+    font-weight: 700;
+    font-size: 1.87vh;
+    text-align: center;
+    border: black solid 1px;
+    transition: ease-out 0.2s;
+    box-shadow: inset 0 0 0 0 #c8d0ec;
+    -webkit-transition: ease-out 0.6s;
+    -moz-transition: ease-out 0.6s;
+    transition: ease-out 0.6s;
+}
+
+
+.submit-button:hover {
+    color: white;
+    transition: 0.6s;
+    box-shadow: inset 0 0 0 50px #93b3eb;
+}
+
+.closeBtn {
+    display: none;
+    position: relative;
+    left: 15.3vw;
+    top: 0.17vh;
+}

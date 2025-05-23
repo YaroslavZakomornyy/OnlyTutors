@@ -1,0 +1,14 @@
+.profile {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+.profile img {
+    margin-top: 0.25vh;
+    margin-right: 0.25vh;
+    border-radius: 50%;
+    /* border: white 1px solid; */
+    height: 9.45vh;
+    width: 9.45vh;
+}
